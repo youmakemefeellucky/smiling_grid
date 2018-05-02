@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+}
+body {
+  overflow: hidden;
+  background-color: gold;
+  color: red;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+}
+.container {
+  background-color: mistyrose;
+  padding: 3px;
+}
+.container > div {
+  background-color: gold;
+}
